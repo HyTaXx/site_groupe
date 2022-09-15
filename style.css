@@ -43,7 +43,8 @@ section {
     justify-content: center;
 }
 .header .flex .navbar a {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 2rem;
     color: #333;
 }
