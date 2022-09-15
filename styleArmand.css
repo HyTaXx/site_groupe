@@ -93,6 +93,43 @@ section > .header {
     text-align: center;
 }
 
+.p1 {
+    background-image: url(img/le.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.p2 {
+    background-image: url(img/sk.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.p3 {
+    background-image: url(img/ka.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+.p4 {
+    background-image: url(img/av.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.sep1::after {
+	content: '';
+	position: absolute;
+	background-color: #cc332d;
+	width: 40%;
+	height: 3px;
+}
+
+.sep2::before {
+	content: '';
+	position: absolute;
+	background-color: #cc332d;
+	width: 40%;
+	height: 3px;
+}
+
 
 @media (max-width:768px) {
     #menu-btn {
