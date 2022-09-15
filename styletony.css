@@ -17,6 +17,21 @@ main{
     height: 200vh;
 }
 
+.imgpassions{
+    width: 40%;
+    height: 40%;
+}
+
+p{
+    display: inline-block;
+}
+
+.jv .bad{
+    display: flex;
+    flex-direction: row;
+
+}
+
 .heading {
     text-align: center;
     margin-bottom: 3rem;
