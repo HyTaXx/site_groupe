@@ -14,6 +14,7 @@ section {
 
 main{
     font-family: 'Roboto', sans-serif;
+    height: 200vh;
 }
 
 .heading {
@@ -32,6 +33,22 @@ h2{
     margin-bottom: 15px;
 }
 
+#passions{
+    font-size: 24px;
+}
+
+#hr{
+    margin-bottom: 60px;
+}
+
+.passions{
+    text-align: center;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    width: 70%;
+}
+
 #tony{
     width: 300px;
     height: 310px;
@@ -44,9 +61,6 @@ h2{
     justify-content: space-between;
 }
 
-#presentation{
-    height: 70vh;
-}
 
 hr{
     width: 150px;
