@@ -2,17 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-}
-
-
-html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 6.5rem;
 }
 
 section {
@@ -53,4 +42,9 @@ section {
     margin-left: 2rem;
     font-size: 2rem;
     color: #333;
+    text-decoration: none;
+}
+
+ul{
+    list-style: square;
 }
