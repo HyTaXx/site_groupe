@@ -7,7 +7,6 @@
     text-decoration: none;
 }
 
-
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -18,11 +17,6 @@ section {
     padding: 3rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.heading {
-    text-align: center;
-    margin-bottom: 3rem;
 }
 
 .header {
@@ -43,12 +37,49 @@ section {
     padding: 1.5rem 2rem;
 }
 
-.header .flex .navbar{
+.header .flex .navbar {
     display: flex;
     justify-content: center;
 }
+
 .header .flex .navbar a {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: 2rem;
     color: #333;
+}
+
+#menu-btn {
+    display: none;
+    font-size: 2.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    #menu-btn {
+        display: inline-block;
+        transition: .2s linear;
+    }
+    #menu-btn.fa-times {
+        transform: rotate(180deg);
+    }
+    .header .flex .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        border-top: .2rem solid #333;
+        border-bottom: .2rem solid #333;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .2s linear;
+    }
+    .header .flex .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .header .flex .navbar a {
+        display: block;
+        margin: 2rem;
+    }
 }
