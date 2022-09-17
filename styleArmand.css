@@ -15,15 +15,10 @@ html {
     scroll-padding-top: 6.5rem;
 }
 
-section > .header {
+section {
     padding: 3rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.heading {
-    text-align: center;
-    margin-bottom: 3rem;
 }
 
 .header {
@@ -43,7 +38,7 @@ section > .header {
     padding: 1.5rem 2rem;
 }
 
-.header .flex .navbar{
+.header .flex .navbar {
     display: flex;
     justify-content: center;
 }
@@ -57,7 +52,6 @@ section > .header {
 #menu-btn {
     display: none;
     font-size: 2.5rem;
-    color: #333;
     cursor: pointer;
 }
 
@@ -176,7 +170,7 @@ section > .header {
 }
 
 
-
+/**  Responsive **/
 @media (max-width:768px) {
     #menu-btn {
         display: inline-block;
@@ -190,9 +184,9 @@ section > .header {
         top: 99%;
         left: 0;
         right: 0;
-        background-color: var(--white);
-        border-top: var(--border);
-        border-bottom: var(--border);
+        background-color: #fff;
+        border-top: .2rem solid #333;
+        border-bottom: .2rem solid #333;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .2s linear;
     }
