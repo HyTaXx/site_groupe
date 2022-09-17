@@ -62,8 +62,8 @@ section > .header {
 }
 
 
-.sep1::after {
-	content: 'Sa présentation';
+.sep1::before {
+	content: 'Présentation';
 	position: absolute;
 	background-color: #cc332d;
 	width: 40%;
@@ -71,7 +71,7 @@ section > .header {
 }
 
 .sep2::before {
-	content: 'Ses passion';
+	content: 'Passions';
 	position: absolute;
 	background-color: #cc332d;
 	width: 40%;
@@ -79,7 +79,7 @@ section > .header {
 }
 
 .sep3::before {
-	content: 'Ses projets';
+	content: 'Projet';
 	position: absolute;
 	background-color: #cc332d;
 	width: 40%;
@@ -88,7 +88,7 @@ section > .header {
 
 
 
-.un {
+#un {
     width: 100%;
     height: 80vh;
     padding: 40px 18%;
@@ -111,7 +111,7 @@ section > .header {
 }
 
 
-.un .img > img {
+#un .img > img {
     height: 100%;
     width: auto;
 }
@@ -119,6 +119,9 @@ section > .header {
 .titre {
     font-size: 30px;
     text-align: center;
+}
+.couleur {
+    color: #cc332d;
 }
 
 .img{
@@ -156,21 +159,6 @@ section > .header {
     background-size: cover;
 }
 
-.sep1::after {
-	content: '';
-	position: absolute;
-	background-color: #cc332d;
-	width: 40%;
-	height: 3px;
-}
-
-.sep2::before {
-	content: '';
-	position: absolute;
-	background-color: #cc332d;
-	width: 40%;
-	height: 3px;
-}
 
 
 @media (max-width:768px) {
