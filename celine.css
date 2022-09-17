@@ -91,6 +91,46 @@ section {
     font-family: 'Merienda One', cursive;
 }
 
+.heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading img {
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.heading h3 {
+    font-size: 4rem;
+    color: var(--black);
+    font-family: 'Merienda One', cursive;
+}
+
+.passion .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.passion .box-container .box {
+    text-align: center;
+}
+
+.passion .box-container .box img {
+    max-height: 348px;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.passion .box-container .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    font-family: 'Merienda One', cursive;
+    margin: 1rem 0;
+}
+
 @media (max-width:768px) {
     #menu-btn {
         display: inline-block;
