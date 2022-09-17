@@ -217,6 +217,18 @@ section {
         height: 100%;
         text-align: center;
     }
+    .p1 {
+        background-image: url(img/le2.jpg);
+    }
+    .p2 {
+        background-image: url(img/sk2.jpg);
+    }
+    .p3 {
+        background-image: url(img/ka2.jpg);
+    }
+    .p4 {
+        background-image: url(img/av2.jpg);
+    }
     #trois {
         width: 100%;
         height: 100vh;
