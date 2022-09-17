@@ -103,7 +103,7 @@ section {
 
 .heading h3 {
     font-size: 4rem;
-    color: var(--black);
+    color: #333;
     font-family: 'Merienda One', cursive;
 }
 
@@ -126,9 +126,40 @@ section {
 
 .passion .box-container .box h3 {
     font-size: 2.5rem;
-    color: var(--black);
+    color: #333;
     font-family: 'Merienda One', cursive;
     margin: 1rem 0;
+}
+
+.projet .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    justify-content: flex-start;
+}
+
+.projet .box-container .box {
+    text-align: center;
+}
+
+.projet .box-container img {
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.projet .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #333;
+    font-family: 'Merienda One', cursive;
+    margin: 1rem 0;
+}
+
+.projet .box-container .box p {
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #333;
+    font-size: 3rem;
 }
 
 @media (max-width:768px) {
