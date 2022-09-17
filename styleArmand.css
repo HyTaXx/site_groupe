@@ -198,13 +198,12 @@ section {
     }
 
     #un {
-        height: 125vh;
+        height: 165vh;
         flex-direction: column;
     }
     #un .img > img {
-        width: 50%;
+        width: 100%;
         height: auto;
-        align-content: center;
     }
     #deux {
         width: 100%;
