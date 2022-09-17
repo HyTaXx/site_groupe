@@ -90,7 +90,7 @@ section {
 #un {
     width: 100%;
     height: 80vh;
-    padding: 40px 18%;
+    padding: 40px 15%;
     display: flex;
 }
 #deux {
@@ -101,7 +101,7 @@ section {
 }
 #trois {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     padding: 40px 50px;
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ section {
 .img,
 .textPrez,
 .passion {
-    margin: 20px;
+    margin: 10px;
 }
 
 
@@ -131,7 +131,7 @@ section {
     text-decoration: underline;
 }
 .textPrez {
-    width: 80%;
+    width: 90%;
 }
 
 .passion {
@@ -195,5 +195,36 @@ section {
     .header .flex .navbar a {
         display: block;
         margin: 2rem;
+    }
+
+    #un {
+        height: 125vh;
+        flex-direction: column;
+    }
+    #un .img > img {
+        width: 50%;
+        height: auto;
+        align-content: center;
+    }
+    #deux {
+        width: 100%;
+        height: 125vh;
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .passion {
+        height: 100%;
+        text-align: center;
+    }
+    #trois {
+        width: 100%;
+        height: 100vh;
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .imageProjet {
+        flex-direction: column;
     }
 }
