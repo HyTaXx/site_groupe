@@ -9,7 +9,6 @@
     color: rgb(255, 255, 255);
 }
 
-
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -62,6 +61,35 @@ section > .header {
     cursor: pointer;
 }
 
+
+.sep1::after {
+	content: 'Sa présentation';
+	position: absolute;
+	background-color: #cc332d;
+	width: 40%;
+	height: 3px;
+}
+
+.sep2::before {
+	content: 'Ses passion';
+	position: absolute;
+	background-color: #cc332d;
+	width: 40%;
+	height: 3px;
+}
+
+.sep3::before {
+	content: 'Ses projets';
+	position: absolute;
+	background-color: #cc332d;
+	width: 40%;
+	height: 3px;
+}
+
+
+
+
+
 #un,
 #deux,
 #trois{
@@ -71,15 +99,26 @@ section > .header {
     display: flex;
 }
 
+
 .img,
 .textPrez,
 .passion {
     margin: 20px;
 }
 
+
+#un .img > img {
+    height: 100%;
+    width: auto;
+}
+
+.titre {
+    font-size: 30px;
+    text-align: center;
+}
+
 .img{
     background-color: bisque;
-    width: 20%;
 }
 
 .textPrez {
