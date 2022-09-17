@@ -184,9 +184,8 @@ section {
         top: 99%;
         left: 0;
         right: 0;
-        background-color: #fff;
-        border-top: .2rem solid #333;
-        border-bottom: .2rem solid #333;
+        border-top: .2rem solid #cc332d;
+        border-bottom: .2rem solid #cc332d;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .2s linear;
     }
