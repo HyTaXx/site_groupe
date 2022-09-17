@@ -68,6 +68,8 @@ section > .header {
 	background-color: #cc332d;
 	width: 40%;
 	height: 3px;
+    font-family: cursive;
+    font-size: 30px;
 }
 
 .sep2::before {
@@ -76,6 +78,8 @@ section > .header {
 	background-color: #cc332d;
 	width: 40%;
 	height: 3px;
+    font-family: cursive;
+    font-size: 30px;
 }
 
 .sep3::before {
@@ -84,8 +88,9 @@ section > .header {
 	background-color: #cc332d;
 	width: 40%;
 	height: 3px;
+    font-family: cursive;
+    font-size: 30px;
 }
-
 
 
 #un {
@@ -94,15 +99,19 @@ section > .header {
     padding: 40px 18%;
     display: flex;
 }
-
-#deux,
-#trois{
+#deux {
     width: 100%;
     height: 80vh;
     padding: 40px 50px;
     display: flex;
 }
-
+#trois {
+    width: 100%;
+    height: 80vh;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+}
 
 .img,
 .textPrez,
@@ -123,18 +132,16 @@ section > .header {
 .couleur {
     color: #cc332d;
 }
-
-.img{
-    background-color: bisque;
+.reseaux > a {
+    color: #1d9bf0;
+    text-decoration: underline;
 }
-
 .textPrez {
     width: 80%;
 }
 
 .passion {
     width: 100%;
-    background-color: aquamarine;
     text-align: center;
 }
 
@@ -157,6 +164,15 @@ section > .header {
     background-image: url(img/av.jpg);
     background-repeat: none;
     background-size: cover;
+}
+
+.imageProjet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imageProjet img {
+    height: 250px;
 }
 
 
