@@ -8,6 +8,7 @@
 }
 
 html {
+    font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6.5rem;
@@ -54,6 +55,40 @@ section {
     font-size: 2.5rem;
     color: #333;
     cursor: pointer;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.presentation .image {
+    flex: 1 1 40rem;
+}
+
+.presentation .image img {
+    width: 90%;
+}
+
+.presentation .content {
+    flex: 1 1 40rem;
+}
+
+.presentation .content h3 {
+    font-size: 4.5rem;
+    color: #333;
+    font-family: 'Merienda One', cursive;
+    padding-bottom: 1rem;
+}
+
+.presentation .content p {
+    padding: 1rem 0;
+    line-height: 2;
+    color: #333;
+    font-size: 1.7rem;
+    font-family: 'Merienda One', cursive;
 }
 
 @media (max-width:768px) {
