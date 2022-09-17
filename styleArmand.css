@@ -88,9 +88,13 @@ section > .header {
 
 
 
+.un {
+    width: 100%;
+    height: 80vh;
+    padding: 40px 18%;
+    display: flex;
+}
 
-
-#un,
 #deux,
 #trois{
     width: 100%;
@@ -107,7 +111,7 @@ section > .header {
 }
 
 
-#un .img > img {
+.un .img > img {
     height: 100%;
     width: auto;
 }
@@ -122,7 +126,6 @@ section > .header {
 }
 
 .textPrez {
-    background-color: brown;
     width: 80%;
 }
 
