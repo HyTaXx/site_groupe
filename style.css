@@ -7,7 +7,6 @@
     text-decoration: none;
 }
 
-
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -38,10 +37,11 @@ section {
     padding: 1.5rem 2rem;
 }
 
-.header .flex .navbar{
+.header .flex .navbar {
     display: flex;
     justify-content: center;
 }
+
 .header .flex .navbar a {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -69,9 +69,9 @@ section {
         top: 99%;
         left: 0;
         right: 0;
-        background-color: var(--white);
-        border-top: var(--border);
-        border-bottom: var(--border);
+        background-color: #fff;
+        border-top: .2rem solid #333;
+        border-bottom: .2rem solid #333;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .2s linear;
     }
