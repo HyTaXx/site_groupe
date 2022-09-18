@@ -71,15 +71,18 @@ h3{
     margin-top: 20px;
 }
 
+.texte{
+    font-size: 20px;
+}
+
 .textetony{
     margin-top: 10px;
     vertical-align: top;
 }
 
 #tony{
-    width: 300px;
-    height: 310px;
-    margin-top: 80px;
+    width: 250px;
+    height: 260px;
 }
 
 .box{
@@ -106,10 +109,12 @@ hr{
 }
 
 .BoxNext{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
     margin-top: 80px;
     padding: 50px;
-    width: 40%;
+    width: 70%;
     height: 37vh;
     background-color: #333;
     color: #fff;
