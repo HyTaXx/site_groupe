@@ -56,6 +56,18 @@ h2{
     margin-bottom: 60px;
 }
 
+.jeux{
+    width: 180px;
+    height: 210px;
+}
+
+.imgjeux{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .passions{
     text-align: center;
     margin: auto;
