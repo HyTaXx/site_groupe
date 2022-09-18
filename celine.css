@@ -22,10 +22,10 @@
     
     .header {
         position: sticky;
-        top: 0;
+        top: 10px;
         left: 0;
         right: 0;
-        background-color: #fff;
+        height: 75px;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
         z-index: 1000;
     }
@@ -44,9 +44,9 @@
     }
     
     .header .flex .navbar a {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        font-size: 3.3rem;
+        margin-left: 1.8rem;
+        margin-right: 1.8rem;
+        font-size: 3.1rem;
         color: #333;
     }
     
