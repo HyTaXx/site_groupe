@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletony.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Tony</title>
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <nav class="navbar">
+                <a href="armand.html">Armand</a>
+                <a href="tony.html">Tony</a>
+                <a href="celine.html">Céline</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <main>
+            <h1>Présentation Tony</h1>
+            <hr>
+                <div class="BoxNext">
+                    <img src="img/tony.jpg" alt="tony" id="tony">
+                    <!--
+                    Présentation Tony
+                    -->
+                    <div>
+                        <h2>Tony Zhang est un étudiant en 2ème année à l'IIM dans l'axe CDI</h2>
+                        <p class="texte">Tony a pour habitude de ne pas prendre de petit déjeuner le matin <br>
+                        Il rale également tous les jours des lors qu'il y a un problème sur le rer A ou B</p>
+                    </div>
+                </div>
+
+        <h1 id="passions">Passions de Tony</h1>
+        <hr id="hr">
+        <div class="passions">
+            <!--
+            Les passions de Tony
+            -->
+            <div>
+                <h3>Jeux Vidéos</h3>
+                <div class="jv">
+                    <img src="img/valorant.jpg" alt="jv" class="imgpassions">
+                    <p class="textetony texte">Tony est Diamant sur Valorant et main Dueliste <br>,sa map préferée ascent (nul)</p>
+                </div>
+                <h3>Badminton</h3>
+                <div class="bad">
+                    <p class="textetony texte">Tony pratique le badminton depuis la 5ème , il a un niveau éxécrable :D .  <br>De plus il a acheté une raquette à 300€</p>
+                    <img src="img/badminton.png" alt="badminton" class="imgpassions">
+                </div>
+            </div>
+        </div>
+        <div>
+            <!--
+            Projet de Tony
+            -->
+            <h1 id="passions">Projet de Tony</h1>
+            <hr>
+            <div class="projet">
+                <p>Le projet de Tony était la création d'une équipe compétitive pour un tournois interuniversitaire regroupant 6 joueurs classé Diamant sur LOL <br>, Diamant sur Valorant, Challenger sur Tft, gold sur Runeterra ayant terminé en quart de finale avec un cash prize de 500 euro </p>
+                <div class="imgjeux">
+                    <img src="img/lol.jpg" alt="" class="jeux">
+                    <img src="img/valorant2.jpg" alt="" class="jeux">
+                    <img src="img/runterra.jpg" alt="" class="jeux">
+                    <img src="img/tft.jpg" alt="" class="jeux">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    let menu = document.querySelector('#menu-btn');
+    let navbar = document.querySelector('.header .flex .navbar')
+    menu.onclick = () => {
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+    }
+    window.onscroll = () => {
+        menu.classList.remove('fa-times');
+        navbar.classList.remove('active');
+    }
+</script>
+</html>
+
+
