@@ -132,6 +132,7 @@ section {
 }
 .textPrez {
     width: 90%;
+    text-align: justify;
 }
 
 .passion {
@@ -167,6 +168,9 @@ section {
 }
 .imageProjet img {
     height: 250px;
+}
+.descriptionProjet {
+    text-align: justify;
 }
 
 
