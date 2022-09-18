@@ -179,6 +179,20 @@ ul{
         display: inline-block;
         transition: .2s linear;
     }
+
+    #tony{
+        display: none;
+    }
+
+    .imgjeux{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jeux{
+        margin: auto;
+        margin-top: 10px;
+    }
     #menu-btn.fa-times {
         transform: rotate(180deg);
     }
