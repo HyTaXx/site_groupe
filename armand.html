@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <title>Armand</title>
+
+        <link rel="stylesheet" href="styleArmand.css">
+
+    </head>
+
+    <body>
+
+        <header class="header">
+            <section class="flex">
+                <nav class="navbar">
+                    <a href="armand.html">Armand</a>
+                    <a href="tony.html">Tony</a>
+                    <a href="celine.html">Céline</a>
+                </nav>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+
+        <section class="prez">
+
+            <div class="sep1"></div>
+            <br>
+
+            <div id="un">
+                <div class="img">
+                    <img src="img/armand.jpg" alt="">
+                </div>
+                <div class="textPrez">
+                    <p class="titre">@HyTaXx <br> alias Armand Nobre</p> <br>
+                    <p>Jeune homme de 19 ans et actuellement en 2ème année de bachelor dans l'axe Coding & Digital Innovation</p> <br>
+                    <p>Jeune homme passionné par les jeux vidéo ainsi que le front end.</p><br>
+                    <p>Jeune homme apprenant le HTML, CSS, JS, PHP et Python.</p><br>
+                    <p class="couleur">TMI : aime le rouge</p><br>
+                    <p class="reseaux">Retrouvez-le sur <a href="https://www.linkedin.com/in/armand-nobre-996057224/">LinkedIn</a> et <a href="https://twitter.com/SFO_HyTaX">Twitter</a> ;) </p>
+                </div>
+            </div>
+
+            <br> 
+            <div class="sep2"></div>
+            <br>
+
+            <div id="deux">
+                <div class="passion p1">League Of Legends</div>
+                <div class="passion p2">Sport</div>
+                <div class="passion p3">Karting</div>
+                <div class="passion p4">Aviation</div>
+            </div>
+
+            <br>
+            <div class="sep3"></div>
+            <br>
+
+            <div id="trois">
+                <div class="imageProjet">
+                    <div>
+                        <img src="img/logo_sfo.png" alt="logo">
+                    </div>
+                    <div>
+                        <img src="img/banniere_sfo.png" alt="bannière">
+                    </div>
+                </div>
+                <br>
+                <div class="descriptionProjet">
+                    Stuck Forever est une équipe league of legends / TFT / Smash bros qui a pour projet de participer et gagner différents tournois
+                </div>
+            </div>
+
+        </section>
+        
+    </body>
+    
+    <script>
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.header .flex .navbar')
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+    </script>
+
+</html>
